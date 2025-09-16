@@ -1,6 +1,6 @@
 def main() -> None:
     try:
-        size = int(input("Enter the size of the pattern: ").strip())
+        size = int(input("Enter the size of the pattern: "))
     except ValueError:
         print("Invalid input. Please enter a positive integer.")
         return
